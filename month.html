@@ -3,16 +3,17 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Calender App</title>
+	<link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 <body>
 	<div class="background">
-		<div class=>
-			<span class="left button" id="prev"></span>
-			<span class="month" id="label"> January 2017 </span>
-			<span class="right button" id="next"></span>
+		<div class="header">
+			<span class="left" id="prev"> &lang; </span>
+			<span class="month" id="label" onload="setMonth()"></span>
+			<span class="right" id="next"> &rang; </span>
 		</div>
-		<table id="days">
+		<table id="day">
 			<tr>
 				<th>SUNDAY</th>
 				<th>MONDAY</th>
@@ -69,5 +70,6 @@
 			</tr>
 		</table>
 	</div>
+	<script type="text/javascript" src="switch.js"></script>
 </body>
 </html>
