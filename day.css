@@ -12,6 +12,7 @@ body {
     font: 13px/2.0 "Happy Monkey", cursive, Helvetica Neue, san-serif; 
 }
 .header {
+    margin-bottom: 50px;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -20,10 +21,10 @@ body {
     display: inline-block;
 }
 .left {
-    float: left;
+    margin-right: 70px;
 }
 .right {
-    float: right;
+    margin-left: 70px;
 }
 p {
    display: block;

@@ -26,9 +26,7 @@ th, td {
 td {
 	height: 80px;
 }
-.left {
-	margin-right: 70px;
-}
-.right {
+.month {
 	margin-left: 70px;
+	margin-right: 70px;
 }
