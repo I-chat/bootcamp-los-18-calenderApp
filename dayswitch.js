@@ -1,4 +1,4 @@
-var date = new Date();
+var date = new Date(); // creating a date object
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var next = document.getElementById('next');
 var prev = document.getElementById('prev');

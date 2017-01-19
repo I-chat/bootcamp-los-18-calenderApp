@@ -1,7 +1,14 @@
-var date = new Date(1980, 0);
+var date = new Date(1980, 0); //creates a date object with a year and month value
 var btn = document.querySelectorAll("td");
 
-for (var i = 0; i < btn.length; i++){
-	btn[i].innerHTML = `<a href="listmonth.html"> ${date.getFullYear() + i} </a>`;
-}
-console.log(btn)
+//populates table with their respective years
+[...btn].forEach((x, i) => {
+	x.innerHTML = `<a href="listmonth.html"> ${date.getFullYear() + i} </a>`;
+});
+var getAnchors = document.getElementsByTagName("a");
+[...getAnchors].forEach(a => {
+	console.log(a) //just to test the output
+	a.addEventListener("click", function(evt) {
+    alert(a.innerHTML);
+  }, false);
+})
