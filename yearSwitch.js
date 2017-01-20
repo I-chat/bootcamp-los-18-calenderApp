@@ -7,8 +7,7 @@ var btn = document.querySelectorAll("td");
 });
 var getAnchors = document.getElementsByTagName("a");
 [...getAnchors].forEach(a => {
-	console.log(a) //just to test the output
 	a.addEventListener("click", function(evt) {
-    alert(a.innerHTML);
+    localStorage.newYear = a.innerHTML;
   }, false);
 })
