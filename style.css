@@ -40,8 +40,6 @@ h1, h2 {
     padding: 0px;
     margin: 0px;
     font: 30px/2.0 "Happy Monkey", cursive, Helvetica Neue, san-serif;
-	font-weight: bold;
-}
-h1 {
     color:  #F0FFFF;
+	font-weight: bold;
 }
