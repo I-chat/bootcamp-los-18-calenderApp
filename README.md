@@ -8,6 +8,7 @@ Vanilla Javascript calender app
     * List of Month in a Year Views
     * List of Weeks and Days in a Month View 
     * Skip to Current Date
+    
 ## Dependencies
 None
 

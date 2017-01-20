@@ -42,3 +42,6 @@ h1, h2 {
     font: 30px/2.0 "Happy Monkey", cursive, Helvetica Neue, san-serif;
 	font-weight: bold;
 }
+h1 {
+    color:  #F0FFFF;
+}
